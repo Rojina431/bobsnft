@@ -1,0 +1,62 @@
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 1000;
+    padding: 0 16em;
+    /* background-image: url("https://uploads-ssl.webflow.com/6274a714a525887e48b4206e/627c609539991badf00e4e8e_IMG_0540.jpg"); */
+}
+
+.nav-container {
+    background-color: #fff;
+    box-shadow: 0 4px 30px 0 rgba(29, 29, 31, 0.05), inset 0 0 0 1px rgba(29, 29, 31, 0.05);
+    padding: 7px 14px;
+    border-radius: 48.8vw;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.logo {
+    width: 7vw;
+    min-width: 80px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav-link {
+    padding: 7px 14px;
+    border-radius: 36px;
+    font-size: 17px;
+    position: relative;
+    z-index: 10;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.background,
+.no-background:hover {
+    background-color: rgba(29, 29, 31, 0.05);
+}
+
+.background:hover {
+    background-color: #0071e3;
+    color: #fff;
+}
+
+a {
+    color: #1d1d1f;
+    font-weight: 510;
+    text-decoration: none;
+    background-color: transparent;
+}

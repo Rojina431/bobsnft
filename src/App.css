@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body {
+    background-image: url("https://uploads-ssl.webflow.com/6274a714a525887e48b4206e/627c609539991badf00e4e8e_IMG_0540.jpg");
+    background-position: 0px 0px;
+    background-size: auto;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Satoshi, sans-serif;
+    color: #1d1d1f;
+    line-height: 1.6666666666666667;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section {
+    padding: 1.6vw;
+    /* background-image: url("https://uploads-ssl.webflow.com/6274a714a525887e48b4206e/627c609539991badf00e4e8e_IMG_0540.jpg"); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.6vw;
+    grid-row-gap: 1.6vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.node{
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+    grid-row-start: span 1;
+    grid-row-end: span;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.main-page{
+    grid-template-columns: 60% 40%;
+    display: grid;
+    padding: 4vw;
+    grid-column-gap: 5px;
+    grid-row-gap: 40px;
+    color: #fff;
+    border-radius: 2vw;
+    background-color: transparent;
+    box-shadow: 0 1px 5vw 0 rgba(29, 29, 31, 0.06);
+    margin-bottom: 60px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+      .right-margin{
+         margin-right: 4.8vw;
+      }
+
+      .left-margin{
+          margin-left: 4.8vw;
+      }
+
+      .medium-paragraph{
+        color: #1d1d1f;
+font-size: 1.25vw;
+      }
+
+      ._4-8vw-margin {
+        margin-bottom: 4.8vw;
+      }
+
+      ._3-2vw-margin {
+        margin-bottom: 3.2vw;
+      }
+
+      ._1-6vw-margin {
+        margin-bottom: 1.6vw;
+      }

@@ -1,0 +1,93 @@
+.bobs-main{
+    height: auto;
+}
+
+.bobs-img{
+    grid-row:1;
+    padding-right: 20px;
+}
+
+.bobs-img img{
+    width: 100%;
+}
+
+.bobs-desc{
+    grid-row: 1;
+    color: #1d1d1f;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: start;
+-webkit-align-items: flex-start;
+-ms-flex-align: start;
+align-items: flex-start;
+position: relative;
+}
+
+.card-number{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 2.25vw;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.1vw;
+}
+
+.main-desc{
+    margin-top: 8vw ;
+    margin-bottom: 3.2vw;
+}
+
+.main-desc h3{
+    margin-top: 0px;
+    margin-bottom: 0.8vw;
+font-size: 2.8vw;
+line-height: 1.25;
+font-weight: 600;
+letter-spacing: -0.2vw;
+}
+
+.main-desc p, .desc p{
+font-size: 1vw;
+}
+
+.desc{
+    display: -ms-grid;
+display: grid;
+-webkit-box-align: start;
+-webkit-align-items: start;
+-ms-flex-align: start;
+align-items: start;
+grid-auto-columns: 1fr;
+grid-column-gap: 2.4vw;
+grid-row-gap: 2.4vw;
+-ms-grid-columns: auto 1fr;
+grid-template-columns: auto 1fr;
+-ms-grid-rows: auto;
+grid-template-rows: auto;
+margin-bottom: 2.4vw;
+}
+
+.desc img{
+    width: 2.4vw;
+height: 2.4vw;
+}
+
+.desc h5{
+    margin-top: 0px;
+margin-bottom: 0vw;
+font-size: 1.6vw;
+line-height: 1.5;
+font-weight: 700;
+letter-spacing: -0.1vw;
+}
