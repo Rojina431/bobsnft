@@ -5,7 +5,6 @@
     background-color: transparent;
     z-index: 1000;
     padding: 0 16em;
-    /* background-image: url("https://uploads-ssl.webflow.com/6274a714a525887e48b4206e/627c609539991badf00e4e8e_IMG_0540.jpg"); */
 }
 
 .nav-container {
@@ -19,6 +18,18 @@
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
+    overflow-x: auto;
+    height: 50px;
+}
+
+
+.nav-container::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-container {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
 
 .logo {
@@ -35,7 +46,8 @@ img {
 .nav-link {
     padding: 7px 14px;
     border-radius: 36px;
-    font-size: 17px;
+    font-size: 1.4vw;
+    font-weight: 600;
     position: relative;
     z-index: 10;
     margin-right: 0.5vw;
@@ -59,4 +71,10 @@ a {
     font-weight: 510;
     text-decoration: none;
     background-color: transparent;
+}
+
+@media (min-width:0px) and (max-width:1000px)  {
+   .navbar{
+       padding: 0 2px;
+   }
 }

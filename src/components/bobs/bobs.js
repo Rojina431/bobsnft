@@ -7,11 +7,14 @@ import Description from '../common_comp/desc'
 const BobsComponent = () => {
     return (
         <div className="main-page bobs-main node right-margin">
+         <h5 className='card-number-hide'>01</h5>
          <div className='bobs-img'>
              <img src={BobsImg} alt="bobs"/>
          </div>
          <div className='bobs-desc'>
-           <h5 className='card-number'>01</h5>
+         <h5 className='card-number'>01</h5>
+
+          
            <Description maintitle="5000 unique BOBS"
            maindesc="Blockchain or Bust is a collection of 5,000 unique and collectable Non-Fungible Tokens. Each are ERC 721 standard tokens, and you can find them residing from the 
            big city to the deep forest region of the Ethereum Blockchain."

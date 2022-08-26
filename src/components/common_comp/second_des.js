@@ -7,8 +7,8 @@ const SecondDesc = (props) => {
        <img src={props.Icon} alt="icon1"/>
        </div>
        <div className='desc-text'>
-           <h6>{props.title}</h6>
-           <p>{props.desc}</p>
+           <h5>{props.title}</h5>
+           <p className='medium-paragraph'>{props.desc}</p>
        </div>
    </div>
     )

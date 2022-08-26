@@ -1,5 +1,4 @@
 import './mintpage.css'
-import { Input, Button } from 'antd'
 import { PlusOutlined, MinusOutlined } from '@ant-design/icons';
 
 const MintPage = () => {

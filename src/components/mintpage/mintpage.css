@@ -1,6 +1,4 @@
-.mint-text{
-    grid-row: 1;
-}
+
 
 .mint-main{
     height: 88vh;
@@ -9,16 +7,13 @@
 
 .mint-text h1{
     margin-top: 0px;
-margin-bottom: 0vw;
+margin-bottom: 30px;
 font-size: 6.4vw;
 line-height: 1;
 font-weight: 700;
 letter-spacing: -0.4vw;
 }
 
-.mint-dropdown{
-    grid-row: 1;
-}
 
 .mint-dropdown p{
     text-align: center;
@@ -55,4 +50,10 @@ letter-spacing: -0.4vw;
 .number-container:hover{
     border: 2px solid #17a2b8;
     transition: ease-in-out .15s;  
+}
+
+@media (min-width:0px) and (max-width:800px) {
+
+   
+    
 }

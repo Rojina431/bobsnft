@@ -6,7 +6,6 @@ import TimelineBobSecond from '../../images/eighth.png'
 import TimelineThird from '../../images/roadmapthird.jpeg'
 import TimelineFourth from '../../images/roadmapfourth.png'
 import TimelineFifth from '../../images/roadmapfifth.png'
-import TimelineSixth from '../../images/roadmapsixth.png'
 
 import TimelineItem from './timelineitem'
 
@@ -24,9 +23,10 @@ const RoadMapCompnent = ()  => {
              </div>
             </div>
             <div className='timeline-wrap'>
-              <div className='timeline-progress'>
+             <div className='timeline-progress'>
                 <div className='timeline-progress-bar'></div>
               </div>
+             
                <TimelineItem 
                title="WHITELIST MINT"
                desctitle="WHITELIST MINT"

@@ -9,7 +9,7 @@ const Description = (props) => {
         <Fragment>
              <div className='main-desc'>
            <h3 className='title'>{props.maintitle}</h3>
-           <p className='paragraph'>{props.maindesc}</p>
+           <p className='medium-paragraph'>{props.maindesc}</p>
            </div>
           <SecondDesc title={props.descTitle1}
           Icon={props.descImg1}

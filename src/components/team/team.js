@@ -15,7 +15,7 @@ const TeamComponent = () => {
              </div>
            </div>
            <div>
-                 <img src={TeamImg} alt="teamimg" width="500px"/>
+                 <img src={TeamImg} alt="teamimg" width="100%"/>
              </div>
         </div>
     )

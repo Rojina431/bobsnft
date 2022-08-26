@@ -12,7 +12,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-height: 80vh;
+    min-height: 100vh;
     margin-right: -1.6vw;
     margin-left: -1.6vw;
     padding: 0 4em;
@@ -50,7 +50,7 @@
 
 .center-image {
     width: 50%;
-    margin-bottom: 1.6vw;
+    margin-bottom: 1.6vh;
 }
 
 .center-text {
@@ -98,7 +98,7 @@
     z-index: 0;
     display: flex;
     overflow: hidden;
-    width: 35%;
+    width: 50%;
     height: 100%;
     padding-right: 8%;
     -webkit-box-pack: end;
@@ -144,7 +144,7 @@
 
 .right-content {
     position: absolute;
-    left: 70%;
+    left: 65%;
     top: 10%;
     right: 0%;
     bottom: 10%;
@@ -154,7 +154,7 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    width: 35%;
+    width: 50%;
     height: 100%;
     padding-left: 8%;
     -webkit-box-pack: start;
@@ -170,4 +170,14 @@
 .two-row._02-right {
     left: 8.4vw;
     padding: 1.5em 0;
+}
+
+@media (min-width:0px) and (max-width:900px) {
+    .left-content{
+        display: none;
+    }
+
+    .right-content{
+        display: none;
+    }
 }
